@@ -1,5 +1,7 @@
 # Benchmark Dataset for Resolving Ambiguities in Text-to-image Generative Models
 
+Link to the [paper](https://assets.amazon.science/91/b9/affc407f4fda8ce0b4d7430e9c1c/resolving-ambiguities-in-text-to-image-generative-models.pdf).
+
 This benchmark dataset covers different types of linguistic as well as fairness ambiguities (in the form of under-specification) to evaluate faithful generation in text-to-image generative models in the existence of prompt ambiguities. This dataset covers 1200 ambiguous prompts and 4690 visual scenes (possible interpretations for existing prompts in this dataset). Our dataset on a high level covers six main types of ambiguities that can be visually traced including: 
 1. Syntax Prepositional Phrase (Example: **The girl approaches the shelf with a green plate.** It is possible that 1. the green plate is with the girl or 2. the green plate is on the shelf.)
 2. Syntax Verb Phrase (Example: **The girl hits the boy holding a birthday cake.** It is possible that 1. the girl is holding the birthday cake or 2. the boy is holding the birthday cake.)
@@ -33,7 +35,7 @@ Download a copy of the dataset in the benchmark/data folder. Each ambiguity type
 
 # License
 
-![alt text] (https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+![alt text](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 The dataset is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License] (http://creativecommons.org/licenses/by-sa/4.0/).
 
 
